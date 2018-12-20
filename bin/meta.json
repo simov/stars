@@ -1,0 +1,62 @@
+[
+  {
+    "charset": "utf-8"
+  },
+
+
+  {
+    "name": "viewport",
+    "content": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  },
+  {
+    "name": "author",
+    "content": "Simeon Velichkov (simov)"
+  },
+  {
+    "name": "copyright",
+    "content": "Simeon Velichkov (simov)"
+  },
+  {
+    "name": "robots",
+    "content": "follow,index"
+  },
+  {
+    "name": "title",
+    "content": "GitHub Star History and Stats"
+  },
+  {
+    "name": "keywords",
+    "content": "github, stars, history, stats",
+    "lang": "en-us"
+  },
+  {
+    "name": "description",
+    "content": "GitHub Star History and Stats"
+  },
+
+
+  {
+    "property": "og:type",
+    "content": "website"
+  },
+  {
+    "property": "og:title",
+    "content": "GitHub Stars"
+  },
+  {
+    "property": "og:description",
+    "content": "GitHub Star History and Stats"
+  },
+  {
+    "property": "og:url",
+    "content": "https://simov.github.io/stars/"
+  },
+  {
+    "property": "og:image",
+    "content": "https://i.imgur.com/eD7irk5.png"
+  },
+  {
+    "name": "twitter:image:alt",
+    "content": "GitHub Star History and Stats"
+  }
+]

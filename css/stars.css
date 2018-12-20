@@ -1,0 +1,167 @@
+* { padding: 0; margin: 0; outline: 0; }
+
+/*sticky footer*/
+html, body { height: 100%; }
+#wrapper {
+  min-height: 100%; height: auto !important; height: 100%;
+  margin: 0 auto -30px;
+}
+footer, #footer-push { height: 30px; text-align: center; }
+
+/*global*/
+
+body {
+  font-family: Monospace, Verdana, Arial sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*header*/
+
+.header {
+  line-height: 32px;
+  color: #fff;
+  background: #000;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1002; /*because of plotly controls*/
+}
+.header a {
+  color: #fff;
+}
+.header .title {
+  font-size: 29px;
+  position: relative;
+  padding: 0 0 0 50px;
+}
+.header .title span {
+  font-size: 72px;
+  position: absolute;
+  top: 0; left: 0;
+}
+.header .message {
+  line-height: 30px;
+  color: #fff;
+  border: 1px solid red;
+  padding: 0 10px;
+}
+.header .limit {
+  display: inline-block;
+}
+.header .login {
+  padding: 0 0 0 20px;
+}
+.header .logout {
+  float: right;
+  margin: 0 20px;
+}
+.header .logout img {
+  width: 32px;
+  display: block;
+}
+.header .info {
+  position: absolute;
+  top: 55px; right: 5%;
+  background: #000;
+  padding: 20px;
+}
+.header .info img {
+  width: 64px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+.header .info .bold {
+  font-size: 22px;
+  font-weight: bold;
+}
+.header .info p:before { content: ''; display: block; clear: both; }
+
+/*form*/
+
+.form {
+  text-align: center;
+  margin: 30px auto;
+}
+.form input {
+  background: #fff;
+  color: #000;
+  min-width: 800px;
+  border: 2px solid #000;
+  padding: 0 10px;
+  margin: 0;
+}
+.form button {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  padding: 0 10px;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+.form input, button {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+/*plot*/
+
+#plot {
+  padding: 0 5%;
+}
+
+/*stats*/
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+.stats table {
+  min-width: 200px;
+  margin: 0 20px 0 0;
+}
+.stats tr:nth-child(odd) {
+  background: #e8e8e8;
+}
+.stats th {
+  background: #000;
+  color: #fff;
+  padding: 0 10px;
+}
+.stats td {
+  padding: 5px;
+}
+.stats td:last-child {
+  text-align: right;
+}
+.stats .stars td {
+  font-size: 29px;
+  line-height: 72px;
+  display: flex;
+  justify-content: center;
+}
+.stats .stars td span {
+  font-size: 72px;
+}
+.stats .limit td {
+  padding: 0 10px;
+}
+
+/*footer*/
+
+.footer {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+.footer a { color: #777; }
+.footer a:last-child { margin: 0; }
+.footer p { color: #777; }

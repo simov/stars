@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "favicon": "images/favicon.ico",
+    "css": [
+      "css/stars.css"
+    ],
+    "js": [
+      "node_modules/preact/dist/preact.min.js",
+      "node_modules/plotly.js/dist/plotly-cartesian.min.js",
+      "lib/hyper.js"
+    ],
+    "mjs": [
+      "lib/app.js"
+    ]
+  },
+  "github": {
+    "favicon": "images/favicon.ico",
+    "css": [
+      "css/stars.css"
+    ],
+    "js": [
+      "https://cdnjs.cloudflare.com/ajax/libs/preact/8.4.2/preact.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.43.0/plotly-cartesian.min.js",
+      "lib/hyper.js"
+    ],
+    "mjs": [
+      "lib/app.js"
+    ]
+  },
+  "prod": {
+    "favicon": "images/favicon.ico",
+    "css": [
+      "dist/stars.min.css"
+    ],
+    "js": [
+      "https://cdnjs.cloudflare.com/ajax/libs/preact/8.4.2/preact.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.43.0/plotly-cartesian.min.js",
+      "dist/stars.min.js"
+    ]
+  }
+}
