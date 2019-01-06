@@ -10,8 +10,8 @@ footer, #footer-push { height: 30px; text-align: center; }
 
 /*global*/
 
-body {
-  font-family: Monospace, Verdana, Arial sans-serif;
+body, input, button {
+  font-family: 'Monospace', monospace;
 }
 a {
   text-decoration: none;
