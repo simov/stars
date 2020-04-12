@@ -29,6 +29,21 @@ var add = () => {
   router()
 }
 
+var _export = (e) => {
+  if (!store.repos.length) {
+    store.message = 'No data to export!'
+    return false
+  }
+  e.target.download = 'github-stars-stats.json'
+  e.target.href =
+    `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify({
+      repos: store.repos,
+      http: store.http,
+      svg: store.svg,
+      stats: store.stats,
+    }))}`
+}
+
 export default () =>
   m('.form',
     m('input[type=text][placeholder=user/repo]', {
@@ -36,4 +51,5 @@ export default () =>
       onkeyup: onkey,
     }),
     m('button', {onclick: add}, 'add'),
+    m('a', {onclick: _export}, 'export'),
   )

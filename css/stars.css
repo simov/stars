@@ -97,7 +97,8 @@ a:hover {
   padding: 0 10px;
   margin: 0;
 }
-.form button {
+.form button,
+.form a {
   background: #fff;
   color: #000;
   border: 2px solid #000;
@@ -105,10 +106,14 @@ a:hover {
   margin: 0 0 0 20px;
   cursor: pointer;
 }
-.form input, button {
+.form input,
+.form button,
+.form a {
   font-size: 40px;
   line-height: 55px;
+  display: inline-block;
 }
+.form a:hover { text-decoration: none; }
 
 /*plot*/
 
